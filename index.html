@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ferreirá Geleias Artesanais</title>
+<meta name="description" content="Geleias artesanais Ferreirá: linha clássica e linha saudável (zero açúcar), sabores exclusivos e edições limitadas. Feitas com tradição de família.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Corben:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header" id="topo">
+  <div class="container header-inner">
+    <a href="#topo" class="logo">
+      <img src="logo.jpg" alt="Ferreirá Produtos Artesanais">
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#geleias">Geleias</a>
+      <a href="#sobre">Nossa história</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="cart-btn" id="cartBtn" aria-label="Abrir carrinho">
+        🧺 <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button type="button" class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">Geleias artesanais Ferreirá</p>
+      <h1>Sabores únicos, feitos com tradição de família</h1>
+      <p class="hero-desc">Geleias artesanais em versão clássica e versão saudável (sem açúcar e sem adoçante industrial), com combinações autorais e edições limitadas. Para presentear, harmonizar ou adoçar o seu dia a dia.</p>
+      <div class="hero-cta">
+        <a href="#geleias" class="btn btn-primary">Ver geleias</a>
+        <a href="#sobre" class="btn btn-ghost">Conhecer a Ferreirá</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-blob"></div>
+      <div class="hero-emoji">🍓</div>
+      <div class="hero-emoji hero-emoji-2">🥭</div>
+      <div class="hero-emoji hero-emoji-3">🫐</div>
+      <div class="hero-emoji hero-emoji-4">🍍</div>
+    </div>
+  </div>
+</section>
+
+<!-- LINHAS -->
+<section class="linhas">
+  <div class="container linhas-grid">
+    <div class="linha-card linha-classica">
+      <h3>Linha Clássica</h3>
+      <p>O sabor de sempre, com açúcar, no ponto certo de doçura — do jeito que a família Ferreirá sempre fez.</p>
+    </div>
+    <div class="linha-card linha-saudavel">
+      <h3>Linha Saudável</h3>
+      <p>Sem açúcar e sem adoçante industrial, para quem quer o mesmo sabor com mais leveza.</p>
+    </div>
+    <div class="linha-card linha-edicao">
+      <h3>Edições Limitadas</h3>
+      <p>Combinações autorais e exclusivas, em quantidade limitada. Achou, levou.</p>
+    </div>
+  </div>
+</section>
+
+<!-- GELEIAS -->
+<section class="produtos" id="geleias">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Vitrine</p>
+      <h2>Nossas geleias</h2>
+      <p class="section-desc">Escolha a linha e adicione ao carrinho. O pedido é finalizado diretamente pelo WhatsApp.</p>
+    </div>
+
+    <div class="filtros" id="filtros">
+      <button type="button" class="filtro-btn active" data-filtro="todos">Todas</button>
+      <button type="button" class="filtro-btn" data-filtro="classica">Linha Clássica</button>
+      <button type="button" class="filtro-btn" data-filtro="saudavel">Linha Saudável</button>
+      <button type="button" class="filtro-btn" data-filtro="edicao">Edição Limitada</button>
+    </div>
+
+    <div class="produtos-grid" id="produtosGrid">
+      <!-- Cards gerados via JS a partir de script.js (array de produtos) -->
+    </div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre" id="sobre">
+  <div class="container sobre-inner">
+    <div class="sobre-visual" aria-hidden="true">
+      <div class="sobre-frame">🥭</div>
+    </div>
+    <div class="sobre-texto">
+      <p class="eyebrow">Nossa história</p>
+      <h2>Tudo começou com um doce de manga verde</h2>
+      <p>A Ferreirá nasceu de uma receita de família: o doce de manga verde, feito há gerações para transformar refeições simples em momentos felizes. Foi dali que veio o nome, o sabor e o propósito da marca.</p>
+      <p>Hoje seguimos fazendo cada pote à mão, em pequenos lotes, com ingredientes selecionados — mas também ganhamos coragem para criar. Além da linha clássica, agora temos uma linha saudável e sabores autorais que não existem em nenhum outro lugar.</p>
+      <ul class="sobre-lista">
+        <li>✔️ Receita de família, passada entre gerações</li>
+        <li>✔️ Produção artesanal, em pequenos lotes</li>
+        <li>✔️ Propósito: transformar refeições em momentos felizes</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- DIFERENCIAIS -->
+<section class="diferenciais" id="diferenciais">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Por que a Ferreirá</p>
+      <h2>Diferenciais</h2>
+    </div>
+    <div class="diferenciais-grid">
+      <div class="diferencial-card">
+        <div class="dif-icon">🍯</div>
+        <h3>Linha dupla</h3>
+        <p>Clássica, com açúcar, ou saudável, sem açúcar e sem adoçante industrial — você escolhe.</p>
+      </div>
+      <div class="diferencial-card">
+        <div class="dif-icon">✨</div>
+        <h3>Sabores exclusivos</h3>
+        <p>Combinações autorais, como abacaxi com coco e pimenta rosa ou manga com alho negro.</p>
+      </div>
+      <div class="diferencial-card">
+        <div class="dif-icon">⏳</div>
+        <h3>Edições limitadas</h3>
+        <p>De tempos em tempos lançamos sabores em quantidade limitada, para quem gosta de novidade.</p>
+      </div>
+      <div class="diferencial-card">
+        <div class="dif-icon">❤️</div>
+        <h3>História de família</h3>
+        <p>Nossas receitas nasceram em casa, com afeto — e é esse cuidado que vai para cada pote.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="depoimentos" id="depoimentos">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Quem já provou</p>
+      <h2>Depoimentos</h2>
+    </div>
+    <div class="depoimentos-grid">
+      <div class="depoimento-card">
+        <p>"A geleia de manga com alho negro é surpreendente. Nunca provei nada parecido — virou presente favorito."</p>
+        <span class="depoimento-autor">— Marina S.</span>
+      </div>
+      <div class="depoimento-card">
+        <p>"Uso a linha saudável no café da manhã todo dia. Mesmo sabor de sempre, sem culpa."</p>
+        <span class="depoimento-autor">— Carlos E.</span>
+      </div>
+      <div class="depoimento-card">
+        <p>"A geleia de manga verde tem gosto de infância. Dá pra sentir que é receita de família mesmo."</p>
+        <span class="depoimento-autor">— Juliana P.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contato" id="contato">
+  <div class="container contato-inner">
+    <div class="contato-info">
+      <p class="eyebrow">Fale com a gente</p>
+      <h2>Contato</h2>
+      <p class="section-desc">Dúvidas, encomendas especiais, kits para presente ou parcerias — envie uma mensagem ou fale direto pelo WhatsApp.</p>
+      <ul class="info-lista">
+        <li>📍 Rua das Flores, 123 — Centro</li>
+        <li>📞 (11) 99999-9999</li>
+        <li>✉️ contato@ferreira-artesanal.com.br</li>
+        <li>🕘 Seg a Sáb, 9h às 18h</li>
+      </ul>
+      <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="btn btn-whatsapp">Chamar no WhatsApp</a>
+    </div>
+
+    <form class="contato-form" id="contatoForm">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required placeholder="seu@email.com">
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Como podemos ajudar?"></textarea>
+
+      <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+      <p class="form-msg" id="formMsg"></p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-logo">
+      <img src="logo.jpg" alt="Ferreirá Produtos Artesanais">
+    </div>
+    <p>&copy; <span id="anoAtual"></span> Ferreirá Produtos Artesanais. Todos os direitos reservados.</p>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">📷</a>
+      <a href="#" aria-label="Facebook">📘</a>
+      <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+    </div>
+  </div>
+</footer>
+
+<!-- CARRINHO (painel lateral) -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-panel" id="cartPanel">
+  <div class="cart-panel-header">
+    <h3>Seu carrinho</h3>
+    <button type="button" id="cartClose" aria-label="Fechar carrinho">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty" id="cartEmpty">Seu carrinho está vazio.</p>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total-row">
+      <span>Total</span>
+      <strong id="cartTotal">R$ 0,00</strong>
+    </div>
+    <button type="button" class="btn btn-whatsapp btn-full" id="checkoutBtn">Finalizar pedido no WhatsApp</button>
+  </div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
+                                                     
